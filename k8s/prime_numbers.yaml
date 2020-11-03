@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prime-numbers
+spec:
+  selector:
+    matchLabels:
+      run: prime-numbers
+  replicas: 10
+  template:
+    metadata:
+      labels:
+        run: prime-numbers
+    spec:
+      containers:
+      - name: prime-numbers
+        image: lostinbrittany/ovhcloud-k8s-autoscaling-demo_prime-numbers:0.0.1
+        resources:
+          limits:
+            cpu: 300m
+            memory: 30Mi
+          requests:
+            cpu: 150m
+            memory: 15Mi
+        ports:
+        - containerPort: 8080        

@@ -1,0 +1,1 @@
+export { K8sInvaders } from './k8s-invaders.js';

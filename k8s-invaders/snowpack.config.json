@@ -1,0 +1,5 @@
+{
+    "extends": "@snowpack/app-scripts-lit-element",
+    "plugins": [],
+    "install": ["lit-html/directives/style-map"]
+}

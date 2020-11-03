@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "lit-element": "./lit-element.js",
+    "lit-html/directives/style-map": "./lit-html/directives/style-map.js"
+  }
+}
