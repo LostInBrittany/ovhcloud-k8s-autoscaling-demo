@@ -1,6 +1,10 @@
+![OVHcloud Ecosystem Experience](./img/ecosystemexperience.png)
+
 # OVHcloud Kubernetes auto-scaling demo
 
 In this repository you will find the documentation and the code accompanying the *Auto-scaling and load-testing your web application on Kubernetes* tech master-class at the [OVHcloud Ecosystem Experience 2020](https://ecosystemexperience.ovhcloud.com/). 
+
+
 
 ---
 
